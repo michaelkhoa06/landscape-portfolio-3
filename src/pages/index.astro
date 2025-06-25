@@ -2,7 +2,7 @@
 import BaseLayout from "src/layouts/BaseLayout.astro";
 ---
 
-<BaseLayout>
+<BaseLayout
   title="Skyline Technologies | Home"
   description="Meta description for the page"
 >
@@ -170,7 +170,132 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
         </ul>
     </div>
 </section>
+                             
                                 
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-2283">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <!--Top left image-->
+            <picture class="cs-picture cs-picture1">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction16.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction16.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction16.jpg" alt="wedding photoshoot" width="297" height="366">
+            </picture>
+            <!--Bottom right image-->
+            <picture class="cs-picture cs-picture2">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction17.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction17.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction17.jpg" alt="photograph of a woman" width="405" height="376">
+            </picture>
+            <!--Middle image-->
+            <picture class="cs-picture cs-picture3">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hardhat.png">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hardhat.png">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/hardhat.png" alt="children's birthday" width="218" height="155">
+            </picture>
+        </div>
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Welcome to Skyline Landscaping</span>
+                <h2 class="cs-title">Built on Passion. <div></div>Grown with Care.</h2>
+                <p class="cs-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto dolor corporis, optio libero voluptates placeat sapiente exercitationem aliquam, expedita ab rerum quae consectetur quia, pariatur quasi nobis! Totam dignissimos 
+                </p>
+            </div>
+            <!--We hide this on mobile, adding the images into a group in the content section allows us to have better control over its responsivenes when the content section gets taller from more content-->
+            <div class="cs-content-images">
+                <picture class="cs-picture cs-picture1">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-pixabay-158148.jpg?updatedAt=1750735299438">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-pixabay-158148.jpg?updatedAt=1750735299438">
+                    <img loading="lazy" decoding="async" src="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-pixabay-158148.jpg?updatedAt=1750735299438" alt="wedding photoshoot" width="297" height="366">
+                </picture>
+            </div>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <h3 class="cs-h3">From Small Beginnings</h3>
+                <div></div>
+                <div></div>
+                <p class="cs-item-text">
+                    Skyline Landscaping began with a simple idea in a small garage just outside of Atlanta: that outdoor spaces should be just as personal, beautiful, and well-crafted as the homes they surround. Our founder, Alex Turner,
+                    started the company over 10 years ago with little more than a used pickup truck, a set of tools, and a passion for working with nature.
+                    <br></br>
+                    What started as weekend lawn jobs for neighbors quickly turned into full-scale landscape projects driven by
+                    word-of-mouth and a reputation for honest, high-quality work. As our team grew, so did our vision—to
+                    bring professional design, dependable service, and thoughtful craftsmanship to every yard we touch.
+                </p>
+            </li>
+            <!--We hide this on mobile, adding the images into a group in the content section allows us to have better control over its responsivenes when the cs-card-group gets taller from more content-->
+            <li class="cs-item cs-item-picture">
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-dianne-60973-226407.jpg?updatedAt=1750735300055">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-dianne-60973-226407.jpg?updatedAt=1750735300055">
+                    <img loading="lazy" decoding="async" src="https://ik.imagekit.io/rkthvltxq/Landscaping/pexels-dianne-60973-226407.jpg?updatedAt=1750735300055" alt="photograph of a woman" width="405" height="376">
+                </picture>
+            </li>
+        </ul>
+    </div>
+</section>
+                                
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbsr-2289">
+    <div class="cs-container">
+        <!-- Left Content Section-->
+        <div class="cs-content">
+            <span class="cs-topper">Experienced Care & Attention </span>
+            <h2 class="cs-title">Great Yards Don’t Happen by Accident</h2>
+            <p class="cs-text">
+                Transform your outdoor spaces with our hardscaping services. We design stunning patios, walkways, retaining walls, and outdoor kitchens, combining creativity and expertise to enhance your relaxation and entertainment areas.
+            </p>
+            <div class="cs-features">
+                <h3 class="cs-h3">We know best:</h3>
+            <p class="cs-review">
+                Satisfaction is the result of thoughtful design, expert planning, and skilled execution—and that’s exactly what we
+                bring to every project at Skyline Landscaping. From the first sketch to the final plant in the ground, we work
+                with intention, creativity, and precision to turn your outdoor space into something truly special. Whether
+                you’re dreaming of a vibrant garden, a peaceful retreat, or a picture-perfect lawn, we make it happen—on
+                purpose, and with pride.
+            </p>
+            </div>
+            <a class="cs-button-solid" aria-label="learn more about our programs" href="/about">Read More</a>
+        </div>
+        <!-- Right Image Section -->
+        <div class="cs-image-group">
+            <!--Floating Box-->
+            <div class="cs-box">
+                <span class="cs-number">99%</span>
+                <div class="cs-flex">
+                    <h3 class="cs-heading">Satisfaction Guarenteed</h3>
+                    <span class="cs-desc">To us, you come first. That's our promise.</span>
+                </div>
+            </div>
+            <!--Image-->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/garden-56719_1280.jpg?updatedAt=1750721341728">
+                <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/rkthvltxq/Landscaping/garden-56719_1280.jpg?updatedAt=1750721341728">
+                <img loading="lazy" decoding="async" src="https://ik.imagekit.io/rkthvltxq/Landscaping/garden-56719_1280.jpg?updatedAt=1750721341728" alt="meeting" width="630" height="630" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+</section>
+
 <!-- ============================================ -->
 <!--                 Why Choose                   -->
 <!-- ============================================ -->
@@ -249,35 +374,294 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
     </div>
 
 </section>
-                                                                       
+                   
+  <!-- ============================================ -->
+  <!--                   Gallery                    -->
+  <!-- ============================================ -->
+
+  <section id="gallery">
+    <div class="cs-container">
+      <span class="cs-topper"></span>
+      <h2 class="cs-title">
+        Our Portfolio
+      </h2>
+      <div class="cs-image-group">
+        <!-- Row 1-->
+        <div class="cs-row cs-row-1">
+          <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+          <picture class="cs-picture cs-picture1">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port1-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port1.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port1.jpg"
+              alt="new hallway"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture2">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port4-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port4.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port4.jpg"
+              alt="new home construction"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture3">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port7-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port7.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port7.jpg"
+              alt="building a new wall"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+        </div>
+        <!-- Row 2 -->
+        <div class="cs-row cs-row-2">
+          <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+          <picture class="cs-picture cs-picture1">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port2-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port2.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port2.jpg"
+              alt="new kitchen"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture2">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port5-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port5.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port5.jpg"
+              alt="apartment addition"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture3">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port8-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port8.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port8.jpg"
+              alt="kew kitchen cabinets"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+        </div>
+        <!-- Row 3 -->
+        <div class="cs-row cs-row-3">
+          <!-- To add more images, copy and paste this row's picture tags here in order from cs-picture-1 to cs-picture-3 and they will maintain the same layout-->
+          <picture class="cs-picture cs-picture1">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port3-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port3.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port3.jpg"
+              alt="new kitchen"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture2">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port6-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port6.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port6.jpg"
+              alt="apartment addition"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+          <picture class="cs-picture cs-picture3">
+            <source
+              media="(max-width: 600px)"
+              srcset="/assets/images/portfolio/port9-m.jpg"
+            />
+            <source
+              media="(min-width: 601px)"
+              srcset="/assets/images/portfolio/port9.jpg"
+            />
+            <img
+              aria-hidden="true"
+              decoding="async"
+              src="/assets/images/portfolio/port9.jpg"
+              alt="kew kitchen cabinets"
+              loading="lazy"
+              width="400"
+              height="560"
+            />
+          </picture>
+        </div>
+      </div>
+      <a href="/projects" class="cs-button-solid">View all projects</a>
+    </div>
+  </section>
                     
 <!-- ============================================ -->
 <!--                   Reviews                    -->
 <!-- ============================================ -->
+<section class="testimonials-section">
+  <div class="container">
+    <span class="section-topper">Client Testimonials</span>
+    <h2 class="section-title">What Our Clients Say About Us</h2>
+    <p class="section-description">
+      We take pride in providing exceptional landscaping solutions across the Metro Atlanta area. Our dedication to quality, service, and attention to detail has made us the trusted choice for homeowners seeking beautiful, lasting outdoor spaces.
+    </p>
 
-<section id="reviews-56">
-    <div class="cs-container">
-        <picture class="cs-picture">
-            <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/rkthvltxq/portrait-4531129_1280.jpg?updatedAt=1750726242914">
-            <source media="(min-width: 601px)" srcset="https://ik.imagekit.io/rkthvltxq/portrait-4531129_1280.jpg?updatedAt=1750726242914">
-            <img aria-hidden="true" loading="lazy" decoding="async" src="https://ik.imagekit.io/rkthvltxq/portrait-4531129_1280.jpg?updatedAt=1750726242914" alt="man smiling" width="320" height="340">
-        </picture>
-        <div class="cs-content">
-            <span class="cs-topper">We care about you</span>
-            <h2 class="cs-title">Here's Why Our Clients <span>Care About Us</span></h2>
-            <p class="cs2-text">
-                We go beyond just landscaping—we build trust, deliver quality, and treat every project like it’s our own. That’s what keeps our customers returning.
-            </p>
-            <p class="cs-review">
-                "Skyline Landscaping transformed our backyard and truly cared about every detail. They listened to our ideas, stayed professional, and made sure we were happy the whole way through. You don’t find that kind
-                of personal touch often—we’ll definitely hire them again!"
-                <span class="cs-name">Marie Nguyen</span>
-            </p>
-            <a href="/reviews" class="cs-button-solid">Read Reviews</a>
+    <div class="reviews-grid">
+      <!-- Review 1 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "What an amazing experience from the planning to the installation phase. They worked within my budget and gave me all the options that I asked. Thank you!"
+        </p>
+        <div class="reviewer-info">
+          <strong>Oliver King</strong> <span>Homeowner</span>
         </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "We recently had custom landscaping done and couldn't be happier with the results! It looks stunning and fits our home perfectly."
+        </p>
+        <div class="reviewer-info">
+          <strong>Cam Nguyen</strong> <span>Homeowner</span>
+        </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "Skyline Landscaping brought our yard to life! The design team was creative, professional, and a pleasure to work with."
+        </p>
+        <div class="reviewer-info">
+          <strong>Jane Smith</strong> <span>Homeowner</span>
+        </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
+
+      <!-- Review 4 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "Skyline Landscaping completely transformed our front yard! The team was professional, on time, and really listened to what we wanted."
+        </p>
+        <div class="reviewer-info">
+          <strong>Sophie Patel</strong> <span>Homeowner</span>
+        </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
+
+      <!-- Review 5 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "We hired Skyline for a backyard project and couldn’t be happier. The team was professional, on time, and the results exceeded our expectations."
+        </p>
+        <div class="reviewer-info">
+          <strong>Evelyn Carter</strong> <span>Homeowner</span>
+        </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
+
+      <!-- Review 6 -->
+      <div class="review-card">
+        <img src="https://www.gstatic.com/marketing-cms/assets/images/d5/dc/cfe9ce8b4425b410b49b7f2dd3f3/g.webp=s48-fcrop64=1,00000000ffffffff-rw" alt="Google logo" class="google-icon" />
+        <p class="review-text">
+          "Every step of the process was smooth, from the first call to the final walkthrough. The crew was polite, fast, and left everything spotless."
+        </p>
+        <div class="reviewer-info">
+          <strong>Marcus Reed</strong> <span>Homeowner</span>
+        </div>
+        <div class="rating">5.0 ★★★★★</div>
+      </div>
     </div>
+  </div>
 </section>
-                
+
+
 
 <!-- ============================================ -->
 <!--                      CTA                     -->
@@ -303,9 +687,14 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
         </div>
     </div>
 </section>
-                                
+                   
+
+
 
 </BaseLayout>
+
+
+
 
 <style lang="less">
 
@@ -1683,6 +2072,769 @@ import BaseLayout from "src/layouts/BaseLayout.astro";
     }
 }
                                 
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #sbsr-2289 {
+        padding: var(--sectionPadding);
+        overflow: hidden;
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: (48/16rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+            position: relative;
+            z-index: 10;
+        }
+
+        .cs-text {
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin-bottom: (32/16rem);
+            }
+        }
+
+        .cs-features {
+            width: 100%;
+            margin: 0 0 (32/16rem);
+            /* 24px - 32px */
+            padding: clamp(1.5rem, 4vw, 2rem);
+            background-color: #fef5f4;
+            border-left: (4/16rem) solid var(--secondary);
+        }
+
+        .cs-h3 {
+            font-size: (16/16rem);
+            font-weight: 700;
+            line-height: 1.5em;
+            margin: 0 0 (12/16rem);
+            color: var(--headerColor);
+        }
+
+        .cs-ul {
+            font-size: (12/16rem);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: (12/16rem);
+        }
+
+        .cs-li {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            list-style: none;
+            /* 20px - 24px */
+            padding-left: clamp(1.25rem, 3vw, 1.5rem);
+            color: var(--bodyTextColor);
+            position: relative;
+
+            &::before {
+                content: "";
+                width: (8/16rem);
+                height: (8/16rem);
+                margin-top: (8/16rem);
+                background-color: var(--secondary);
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: rotate(45deg);
+            }
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            font-weight: 700;
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-align: center;
+            text-decoration: none;
+            min-width: (150/16rem);
+            margin: 0;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            color: #1a1a1a;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            transition: color 0.3s;
+
+            &:before {
+                content: "";
+                width: 0%;
+                height: 100%;
+                background: #000;
+                opacity: 1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width 0.3s;
+            }
+
+            &:hover {
+                color: #fff;
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-image-group {
+            width: 100%;
+            height: 126vw;
+            max-height: (626/16rem);
+            display: block;
+            order: -1;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-picture {
+            /* big background image */
+            width: 100%;
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: (95/16rem);
+            left: 0;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-box {
+            text-align: left;
+            width: 91%;
+            max-width: (450/16rem);
+            /* prevents padding and border from affecting height and width */
+            box-sizing: border-box;
+            /* 24px - 32px */
+            padding: clamp(1.5rem, 3vw, 2rem);
+            background-color: #fffcf3;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            column-gap: (24/16rem);
+            row-gap: (8/16rem);
+            position: absolute;
+            right: 50%;
+            bottom: 0;
+            z-index: 10;
+            transform: translate(50%);
+        }
+
+        .cs-number {
+            /* 31px - 49px */
+            font-size: clamp(1.9375rem, 4vw, 3.0625rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            text-transform: uppercase;
+            margin: 0;
+            color: var(--General-Secondary, #ffc219);
+        }
+
+        .cs-heading {
+            font-size: (20/16rem);
+            font-weight: 700;
+            line-height: 1.2em;
+            margin: 0 0 (8/16rem);
+            color: var(--headerColor);
+        }
+
+        .cs-desc {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-graphic {
+            width: 150%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+    #sbsr-2289 {
+        .cs-box {
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+}
+
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbsr-2289 {
+        .cs-container {
+            max-width: (1280/16rem);
+            flex-direction: row;
+            align-items: stretch;
+            gap: (20/16rem);
+        }
+
+        .cs-content {
+            padding-right: (52/16rem);
+            padding-bottom: (108/16rem);
+        }
+
+        .cs-image-group {
+            height: auto;
+            min-height: (642/16rem);
+            max-height: 100%;
+            order: initial;
+        }
+
+        .cs-picture {
+            bottom: (64/16rem);
+        }
+    }
+}
+                                                                
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+    #sbs-2283 {
+        padding: var(--sectionPadding);
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
+
+        .cs-container {
+            width: 100%;
+            /* changes to 1280px at desktop */
+            max-width: (584/16rem);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* 48px - 64px */
+            gap: clamp(3rem, 6vw, 4rem);
+        }
+
+        .cs-content {
+            /* set text align to left if content needs to be left aligned */
+            text-align: left;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            /* centers content horizontally, set to flex-start to left align */
+            align-items: flex-start;
+        }
+
+        .cs-content-images {
+            display: none;
+        }
+
+        .cs-text {
+            max-width: 100%;
+            margin-bottom: (16/16rem);
+            &:last-of-type {
+                margin: 0;
+            }
+        }
+
+        .cs-card-group {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: (20/16rem);
+            order: 3;
+        }
+
+        .cs-item {
+            list-style: none;
+            /* 24px - 32px */
+            padding: clamp(1.5rem, 5vw, 2rem);
+            border-left: 4px solid var(--primary);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: (12/16rem);
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: '';
+                width: 100%;
+                height: 100%;
+                background: var(--primary);
+                opacity: .05;
+                display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+        }
+
+        .cs-item-picture {
+            display: none;
+        }
+
+        .cs-h3 {
+            font-size: (16/16rem);
+            line-height: 1.2em;
+            font-weight: 700;
+            margin: 0;
+            color: var(--headerColor);
+        }
+
+        .cs-item-text {
+            font-size: (16/16rem);
+            line-height: 1.5em;
+            margin: 0;
+            color: var(--bodyTextColor);
+        }
+
+        .cs-button-solid {
+            font-size: (16/16rem);
+            font-weight: 700;
+            /* 46px - 56px */
+            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+            text-align: center;
+            text-decoration: none;
+            min-width: (150/16rem);
+            margin: 0;
+            /* prevents padding from adding to the width */
+            box-sizing: border-box;
+            padding: 0 (24/16rem);
+            background-color: var(--primary);
+            color: #fff;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+
+            &:before {
+                content: "";
+                width: 0%;
+                height: 100%;
+                background: #000;
+                opacity: 1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+                transition: width 0.3s;
+            }
+
+            &:hover {
+                &:before {
+                    width: 100%;
+                }
+            }
+        }
+
+        .cs-image-group {
+            /* scales the whole group based on the view width size and stop when that vales equals .74em, resets at desktop */
+            font-size: ~"min(2.48vw, 1rem)";
+            width: (584/16em);
+            height: (619/16em);
+            display: block;
+            position: relative;
+            z-index: 1;
+            order: 2;
+        }
+
+        .cs-picture {
+            display: block;
+            position: absolute;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+
+        .cs-picture1 {
+            width: (381/16em);
+            height: (381/16em);
+            border-right: (14/16em) solid #FEF5F4;
+            border-bottom: (14/16em) solid #FEF5F4;
+            top: 0;
+            bottom: (281/16em);
+            left: 0;
+        }
+
+        .cs-picture2 {
+            width: (382/16em);
+            height: (326/16em);
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        .cs-picture3 {
+            width: (215/16em);
+            height: (152/16em);
+            bottom: (160/16em);
+            left: (100/16em);
+        }
+    }
+}
+
+/* Small Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+    #sbs-2283 {
+        .cs-container {
+            max-width: (1280/16rem);
+            gap: (32/16rem);
+        }
+
+        .cs-content {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: stretch;
+            gap: (44/16rem);
+            position: relative;
+            z-index: 10;
+        }
+
+        .cs-flex {
+            width: 100%;
+            max-width: (738/16rem);
+        }
+
+        .cs-content-images {
+            width: 45vw;
+            max-width: (412/16rem);
+            height: auto;
+            display: block;
+            position: relative;
+            z-index: 1;
+            order: -1;
+        }
+
+        .cs-li {
+            align-items: center;
+        }
+
+        .cs-image-group {
+            display: none;
+        }
+
+        .cs-picture1 {
+            width: 100%;
+            /* -133px to -165px */
+            height: calc(100% + clamp(8.3125rem, 13vw, 10.3125rem));
+            top: 0;
+        }
+
+        .cs-picture3 {
+            width: 56%;
+            min-height: 100px;
+            max-width: (233/16rem);
+            left: 50%;
+            top: calc(100% + 5rem);
+            transform: translateX(-50%);
+
+            img {
+                width: 100%;
+                height: auto;
+                position: relative;
+                z-index: 1;
+                top: auto;
+                left: auto;
+                object-fit: initial;
+            }
+        }
+
+        .cs-card-group {
+            width: 50%;
+            max-width: (521/16rem);
+            margin-left: auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cs-item-picture {
+            width: 30vw;
+            max-width: (413/16rem);
+            border: none;
+            display: block;
+            position: absolute;
+            /* 72px - 130px */
+            right: calc(100% + clamp(4.5rem, 6vw + 2.5rem, 8.125rem));
+            top: (36/16rem);
+            bottom: 0;
+
+            &:before {
+                display: none;
+            }
+        }
+
+        .cs-picture2 {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+                                
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+
+  /* Mobile - 360px - Contains hover animation */
+  @media only screen and (min-width: 0em) {
+    #gallery {
+      /* Centers button */
+      text-align: center;
+      padding: var(--sectionPadding);
+      position: relative;
+      /* Prevents overflow from the image going off screen */
+      overflow: hidden;
+      .cs-container {
+        width: 100%;
+        max-width: (1322/16em);
+        margin: auto;
+      }
+
+      .cs-topper {
+        text-align: center;
+        margin-bottom: (16/16rem);
+      }
+
+      .cs-title {
+        text-align: center;
+        max-width: (621/16rem);
+        margin-bottom: (40/16rem);
+      }
+
+      .cs-image-group {
+        /* used rem so it doesn't scale with the font size of on parent */
+        font-size: ~"min(1.1vw, 1em)";
+        width: 100%;
+        max-width: (1322/16em);
+        margin: 0 auto (60/16rem);
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: (30/16em);
+      }
+
+      .cs-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: (30/16em);
+      }
+
+      .cs-picture {
+        display: block;
+        position: relative;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+
+      .cs-row-1 {
+        .cs-picture1 {
+          width: (420/16em);
+          height: (567/16em);
+        }
+
+        .cs-picture2 {
+          width: (420/16em);
+          height: (629/16em);
+        }
+
+        .cs-picture3 {
+          width: (420/16em);
+          height: (512/16em);
+        }
+      }
+
+      .cs-row-2 {
+        .cs-picture1 {
+          width: (420/16em);
+          height: (492/16em);
+        }
+
+        .cs-picture2 {
+          width: (420/16em);
+          height: (517/16em);
+        }
+
+        .cs-picture3 {
+          width: (420/16em);
+          height: (629/16em);
+        }
+      }
+
+      .cs-row-3 {
+        .cs-picture1 {
+          width: (420/16em);
+          height: (625/16em);
+        }
+
+        .cs-picture2 {
+          width: (420/16em);
+          height: (452/16em);
+        }
+
+        .cs-picture3 {
+          width: (420/16em);
+          height: (629/16em);
+        }
+      }
+    }
+  }
+
+  /* Dark mode */
+  @media only screen and (min-width: 0em) {
+    body.dark-mode {
+      #gallery {
+        .cs-title {
+          color: var(--csTitleColor);
+        }
+      }
+    }
+  }
+
+/*-- --------------------------- -->
+<---       Testimonials         --> 
+<--- --------------------------- -*/
+
+.testimonials-section {
+  padding: 5rem 1rem;
+  text-align: center;
+  background-color: #fff;
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .section-topper {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .section-description {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    justify-items: center;
+  }
+
+  .review-card {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    width: 100%;
+    max-width: 360px;
+    min-height: 320px;
+    text-align: left;
+    transition: transform 0.2s ease;
+
+    &:hover {
+      transform: translateY(-6px);
+    }
+
+    .google-icon {
+      width: 40px;
+      height: auto;
+      margin-bottom: 1.25rem;
+    }
+
+    .review-text {
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #333;
+      margin-bottom: 1.75rem;
+    }
+
+    .reviewer-info {
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+
+      strong {
+        display: inline-block;
+        margin-right: 0.25rem;
+      }
+    }
+
+    .rating {
+      color: #ffa500;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
+}
                                 
 
                                 

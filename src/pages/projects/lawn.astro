@@ -1,7 +1,5 @@
 ---
 import BaseLayout from "src/layouts/BaseLayout.astro";
-import FAQ from "@components/Faq.astro";
-import CTA from "@components/CTA.astro";
 ---
 
 <BaseLayout
@@ -251,8 +249,76 @@ import CTA from "@components/CTA.astro";
 </section>
                                 
                                                                             
-<FAQ/>                              
-<CTA/>
+<!-- ============================================ -->
+<!--                      FAQ                     -->
+<!-- ============================================ -->
+
+<section id="faq-1582">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">1. How do I get started with a landscaping project?</h3>
+                    <p class="cs-item-text">
+                       Simply reach out through our contact form or give us a call to schedule a free consultation. We'll walk through your goals, preferences, and budget to create a custom plan.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">2. Do you offer both residential and commercial services?</h3>
+                    <p class="cs-item-text">
+                        Yes, we provide landscaping solutions for both homes and businesses. Whether it's a backyard retreat or a professional storefront, we tailor our work to fit your needs.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">3. What is hardscaping and how is it different from landscaping?</h3>
+                    <p class="cs-item-text">
+                        Hardscaping refers to the non-living elements like patios, walkways, and retaining walls. Landscaping includes the living components like plants, grass, and garden design.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">4. How long does a typical project take?</h3>
+                    <p class="cs-item-text">
+                        Project timelines vary based on size and complexity, but most residential jobs are completed within 1–3 weeks. We provide a detailed timeline before any work begins.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">5. Can you work within a specific budget?</h3>
+                    <p class="cs-item-text">
+                        Absolutely—we offer flexible options and transparent pricing to help you stay within budget. We'll recommend materials and designs that align with both your vision and finances.
+                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <!-- Text Grouped For Flexbox-->
+                <div class="cs-text-group">
+                    <h3 class="cs-h3">6. Do you handle maintenance after installation?</h3>
+                    <p class="cs-item-text">
+                        Yes, we offer ongoing maintenance plans to keep your outdoor space looking its best. From seasonal clean-ups to routine care, we’ve got you covered.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+                                              
+
 </BaseLayout>
 
 <style lang="less">
@@ -1164,13 +1230,7 @@ import CTA from "@components/CTA.astro";
             /* 48px - 64px */
             gap: clamp(3rem, 6vw, 4rem);
         }
-        .cs-title {
-            font-size: clamp(2rem, 5vw, 3rem); // You can adjust this
-            font-weight: 700;
-            line-height: 1.2em;
-            margin: 0; // <<< this removes the default spacing
-            color: var(--headerColor); // or your preferred color
-        }   
+
         .cs-content {
             /* set text align to left if content needs to be left aligned */
             text-align: left;
@@ -1557,4 +1617,5 @@ import CTA from "@components/CTA.astro";
     }
 }
                                 
+
 </style>

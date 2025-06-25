@@ -10,18 +10,34 @@
     "children": []
   },
     {
-    "key": "Projects",
+    "key": "Services",
     "url": "/projects/",
-    "children": []
+    "children": [
+      {
+        "key": "Lawn Care and Maintenance",
+        "url": "/projects/lawn/",
+        "children": []
+      },
+      {
+        "key": "Planting and Design",
+        "url": "/projects/plant/",
+        "children": []
+      },
+      {
+        "key": "Hardscaping and Landscaping",
+        "url": "/projects/hard/",
+        "children": []
+      },
+      {
+        "key": "Irrigation Systems",
+        "url": "/projects/irrigation/",
+        "children": []
+      }
+    ]
   },
   {
-    "key": "Reviews",
-    "url": "/reviews/",
-    "children": []
-  },
-  {
-    "key": "Contact",
-    "url": "/contact/",
+    "key": "Gallary",
+    "url": "/projects/",
     "children": []     
   }
 ]
